@@ -1,0 +1,10 @@
+# ===== Analysis outputs / derived data =====
+*.csv
+*.xlsx
+*.xls
+
+# ===== Python virtual environment =====
+stats_analysis_code/Scripts/
+stats_analysis_code/pyvenv.cfg
+stats_analysis_code/python.exe
+stats_analysis_code/pythonw.exe
