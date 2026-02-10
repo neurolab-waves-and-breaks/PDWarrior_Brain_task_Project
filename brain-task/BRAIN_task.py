@@ -1,8 +1,7 @@
-
 from datetime import datetime
 import pygame
 import os
-import pygame, sys  # NOTE: After installing pygame, visual studio code needs to be restarted
+import pygame, sys  # NOTE: After installing pygame, Visual Studio Code needs to be restarted
 import pygame.locals
 import pandas
 import time
