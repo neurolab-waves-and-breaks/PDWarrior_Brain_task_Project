@@ -28,7 +28,7 @@ brain-task/
 This folder contains the **Pygame implementation of the BRAIN finger-tapping task**.
 
 ### Purpose
-- Run the finger-tapping task with auditory start (`go.wav`) and end (`trumpet.wav`) cues
+- Run the finger-tapping task with auditory start (`Go.wav`) and end (`Trumpet.wav`) cues
 - Record key press events over a predefined task duration
 - Export raw keystroke timing data for each recording
 
