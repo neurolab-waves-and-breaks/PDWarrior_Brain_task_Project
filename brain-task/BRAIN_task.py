@@ -9,7 +9,7 @@ import time
 
 import numpy as np
 
-# VERY IMPORTANT: If they start tapping too early (before the go), 
+# VERY IMPORTANT: If they start tapping too early (before they go), 
 # so that the key press is registered in the code window, instead, you need 
 # to click on the square window, so that the key presses are registered (or it 
 # too late, abort it, pressing Escape)
@@ -41,7 +41,7 @@ else:
      task_duration = 30
 # ===========================
 
-data_folder = 'C:/Users/ti21392/OneDrive - University of Bristol/Bristol/Experiments/PD_warrior/Pre_Post_BrainTask_Protocol/BRAIN_task/data/'
+data_folder = 'path_to_your_data/'
 EEG_REC = False
 
 # Create filename
