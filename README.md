@@ -122,7 +122,7 @@ This folder contains **Python scripts for statistical testing and figure generat
 
 ## Contact
 
-Rui  
+Rui Ni & Petra Fischer
 University of Bristol
 
 ---
