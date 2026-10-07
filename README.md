@@ -18,6 +18,7 @@ brain-task/
 ├── brain-task/ # Pygame task for data collection
 ├── preprocessing_code/ # MATLAB preprocessing and metric computation
 ├── stats_analysis_code/ # Python statistical analysis and plotting
+├── lmm_analysis_code/       # R mixed-effects models (confirmatory analysis)
 └── README.md
 
 
@@ -102,12 +103,36 @@ This folder contains **Python scripts for statistical testing and figure generat
 
 ---
 
+## 4. Mixed-effects modelling (`lmm_analysis_code/`)
+
+This folder contains the **R script that fits the linear mixed-effects models** reported in the study. 
+
+### Purpose
+- Fit linear mixed-effects models to tap-wise movement speed and dwell time
+- Estimate the effect of exercise within participant, with by-participant random intercepts and random slopes
+- Test whether that effect depends on recording repetition or on the session-to-session difference in relative medication level
+- Check robustness against age, disease duration and medication level, and against the removal of any single participant
+- Print all tables in the order they appear in the manuscript
+
+### Input
+
+Two tap-level .csv files produced by the MATLAB stage, one per outcome.
+
+### Requirements
+- R (≥ 4.1 recommended)
+- lme4
+- lmerTest
+- dplyr
+- tidyr
+
+---
+
 ## Typical workflow
 
 1. Run the finger-tapping task (`brain-task/`) to collect raw data
 2. Preprocess data and compute behavioural metrics using MATLAB (`preprocessing_code/`)
 3. Perform statistical analyses and generate figures in Python (`stats_analysis_code/`)
-
+4. Fit the mixed-effects models and generate the result tables in R (`lmm_analysis_code/`)
 ---
 
 ## Notes
